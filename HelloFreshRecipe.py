@@ -153,7 +153,7 @@ def main():
   programme
   """
   input_file_path="in/recipes.json"
-  output_file_path="out/recipeoutput/"
+  output_file_path="output/"
   dataframe=recipe_file_transfomed.file_read(input_file_path)
   recipe_total_average_time=recipe_file_transfomed.transform_input_file(dataframe)
   recipe_file_transfomed.load_recipe_data(recipe_total_average_time,output_file_path)
